@@ -1,0 +1,329 @@
+{
+    "organisation_id": 1,
+    "facility_id":12,
+    "appointmentHeader": "SampleData",
+    "defaultsortcolumname": "Date",
+    "defaultsortkey": "appointmentId",
+    "icon": "Notes",
+    "column": [
+        {
+            "seqNo": 1,
+            "colName": "AppointmentSample",
+            "label": "Appointment Id",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "number",
+            "list": null
+        },
+        {
+            "seqNo": 2,
+            "colName": "dateSample",
+            "label": "Date",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "date",
+            "list": null
+        },
+        {
+            "seqNo": 3,
+            "colName": "start",
+            "label": "Start Time",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "time",
+            "list": null
+        },
+        {
+            "seqNo": 4,
+            "colName": "end",
+            "label": "End Time",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "time",
+            "list": null
+        },
+        {
+            "seqNo": 5,
+            "colName": "firstName",
+            "label": "First Name",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 6,
+            "colName": "lastName",
+            "label": "Last Name",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 7,
+            "colName": "middleName",
+            "label": "Middle Name",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 8,
+            "colName": "name",
+            "label": "Name",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 9,
+            "colName": "dob",
+            "label": "DOB",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "date",
+            "list": null
+        },
+        {
+            "seqNo": 10,
+            "colName": "age",
+            "label": "Age",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "number",
+            "list": null
+        },
+        {
+            "seqNo": 11,
+            "colName": "mrn",
+            "label": "MRN",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": [
+                {
+                    "option": [
+                        "Red Blood Cell",
+                        "Lipid apheresis",
+                        "Plasma exchange"
+                    ]
+                }
+            ]
+        },
+        {
+            "seqNo": 12,
+            "colName": "procedure",
+            "label": "Procedure",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "select",
+            "list": null
+        },
+        {
+            "seqNo": 13,
+            "colName": "location",
+            "label": "Location",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": [
+                {
+                    "option": [
+                        "Pending",
+                        "Completed",
+                        "On Hold"
+                    ]
+                }
+            ]
+        },
+        {
+            "seqNo": 14,
+            "colName": "status",
+            "label": "Status",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "select",
+            "list": null
+        },
+        {
+            "seqNo": 15,
+            "colName": "notes",
+            "label": "Notes",
+            "columnsOnGrid": true,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "note",
+            "list": null
+        },
+        {
+            "seqNo": 16,
+            "colName": "sex",
+            "label": "Sex",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "select",
+            "list": [
+                {
+                    "option": [
+                        "Female",
+                        "Male",
+                        "Others"
+                    ]
+                }
+            ]
+        },
+        {
+            "seqNo": 17,
+            "colName": "addressLine1",
+            "label": "Address Line 1",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 18,
+            "colName": "addressLine2",
+            "label": "Address Line 2",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 19,
+            "colName": "city",
+            "label": "City",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 20,
+            "colName": "state",
+            "label": "State",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        },
+        {
+            "seqNo": 21,
+            "colName": "zipCode",
+            "label": "Zip Code",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "number",
+            "list": null
+        },
+        {
+            "seqNo": 22,
+            "colName": "country",
+            "label": "Country",
+            "columnsOnGrid": false,
+            "columnCustomization": true,
+            "mandColumns": true,
+            "type": "text",
+            "list": null
+        }
+    ],
+"row": [
+        {
+            "date": "sample",
+            "start": "sample",
+            "end": "sample",
+            "name": "sample",
+            "age": "sample",
+            "mrn": "sample",
+            "procedure": "sample",
+            "location": "sample",
+            "status": "sample",
+            "notes": null,
+            "firstName": "sample",
+            "lastName": "sample",
+            "middleName": "sampleK",
+            "dob": "sample",
+            "sex": "sample",
+            "addressLine1": "sample",
+            "addressLine2": "sample",
+            "city": "sample",
+            "state": "sample",
+            "zipCode": "sample",
+            "country": "sample",
+            "appointmentId": "sample"
+        },
+        {
+            "date": "sample",
+            "start": "sample",
+            "end": "sample",
+            "name": "sample",
+            "age": "sample",
+            "mrn": "sample",
+            "procedure": "sample",
+            "location": "sample",
+            "status": "sample",
+            "notes": null,
+            "firstName": "sample",
+            "lastName": "sample",
+            "middleName": "sampleK",
+            "dob": "sample",
+            "sex": "sample",
+            "addressLine1": "sample",
+            "addressLine2": "sample",
+            "city": "sample",
+            "state": "sample",
+            "zipCode": "sample",
+            "country": "sample",
+            "appointmentId": "sample"
+        },
+        {
+            "date": "sample",
+            "start": "sample",
+            "end": "sample",
+            "name": "sample",
+            "age": "sample",
+            "mrn": "sample",
+            "procedure": "sample",
+            "location": "sample",
+            "status": "sample",
+            "notes": null,
+            "firstName": "sample",
+            "lastName": "sample",
+            "middleName": "sampleK",
+            "dob": "sample",
+            "sex": "sample",
+            "addressLine1": "sample",
+            "addressLine2": "sample",
+            "city": "sample",
+            "state": "sample",
+            "zipCode": "sample",
+            "country": "sample",
+            "appointmentId": "sample"
+        }
+],
+    "totalRecords": 23
+}
